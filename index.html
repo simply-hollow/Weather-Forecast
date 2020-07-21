@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>Weather-App</title>
+		<meta charset="utf-8">
+		<link type="image/png" href="images/icon.png" rel="shortcut icon">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row main">
+				<h1 class="heading">Weather Details</h1>
+				<br/>
+				<form method="GET">
+			      <input type="text" placeholder="Search for a city" autofocus>
+			      <button type="submit">SUBMIT</button>
+			      <span class="msg"></span>
+			    </form>	
+			</div>			
+			<div class="row ajax">
+				<ul class="cities"></ul>
+			</div>
+		</div>
+		<script src="js/custom.js"></script>
+	</body>
+</html>
